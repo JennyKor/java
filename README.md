@@ -1,2 +1,2 @@
 # java
-Beginner java code
+Beginner java code made during classes.
