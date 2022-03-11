@@ -2,7 +2,6 @@ package monkija;
 
 public class Monkija {
 
-	
 	public static void main(String[] args) {
 		Monkija monkija = new Monkija();
 		monkija.kiihdyta(40);
@@ -11,8 +10,7 @@ public class Monkija {
 		monkija.hidasta(30);
 		monkija.hidasta(20);
 		monkija.hidasta(22);
-	}
-	
+	}	
 	
 	private int nopeus;
     
@@ -25,13 +23,12 @@ public class Monkija {
 		nopeus -= maara;
 		if (nopeus < -10) {
 			nopeus = -10;
-			System.out.println("Ei voi menn‰ hitaammin. Nopeus on " + nopeus);
+			System.out.println("Ei voi menn√§ hitaammin. Nopeus on " + nopeus);
 			}
 			
 		else {
 			System.out.println("Nopeus on " + nopeus);
-			}
-			
+			}			
 	}
 	
 	public void kiihdyta(int maara) {
@@ -39,13 +36,11 @@ public class Monkija {
 		nopeus += maara;
 			if (nopeus > 60) {
 			nopeus = 60;
-			System.out.println("Ei voi menn‰ kovempaa. Nopeus on " + nopeus);
+			System.out.println("Ei voi menn√§ kovempaa. Nopeus on " + nopeus);
 			}
 			
 		else {
 			System.out.println("Nopeus on " + nopeus);
-			}	
-		
-	}
-	
+			}			
+	}	
 }
